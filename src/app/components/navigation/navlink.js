@@ -45,7 +45,7 @@ export default function NavLinks() {
                     <Link
                         href={link.href}
                         >
-                        <p>{link.name}</p>
+                        <h3>{link.name}</h3>
                     </Link>
                 </div>
             </div>

@@ -1,0 +1,36 @@
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    animation: 1.5s fadeInAnimation;
+    padding-top: 12.5vh;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }
+
+.projects-table {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1050px;
+    gap: 50px;
+    padding-bottom: 5vh;
+}
+
+@media (max-width: 500px) {
+    .projects-table {
+        width: 300px;
+  }
+}

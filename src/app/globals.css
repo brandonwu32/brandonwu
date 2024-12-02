@@ -12,16 +12,26 @@ h1 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   font-size: 3rem;
+  color: white;
 }
 
 h2 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   font-size: 2rem;
+  color: white;
+}
+
+h3 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: white;
 }
 
 p {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Assistant', sans-serif;
+  color: rgb(215, 215, 215);
 }
 
 a {
@@ -29,7 +39,7 @@ a {
 }
 
 p a {
-  color: #8A9093;
+  color: white;
   text-decoration: underline;
 }
 
@@ -50,7 +60,7 @@ p a {
   width: 100vw;
   justify-content: center;
   gap: 6vw;
-  padding-top: 10vh;
+  padding-top: 22.5vh;
   animation: 1.5s fadeInAnimation;
 }
 
@@ -59,7 +69,7 @@ p a {
   width: 350px;
 }
 .home-right {
-  width: 35vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -88,6 +98,21 @@ p a {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  padding-top: 3vh;
+}
+
+.fab {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  filter: invert(100);
 }
 
 @media (max-width: 600px) {
