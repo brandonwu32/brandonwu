@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #ECF0F1;
+  background-color: #000000;
   font-family: 'Source Serif Pro', serif;
 }
 
@@ -44,7 +44,7 @@ p a {
 }
 
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
