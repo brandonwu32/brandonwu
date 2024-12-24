@@ -16,7 +16,7 @@ export default function Project(props) {
     }
     return (
         <div>
-            <a href = {'./projects/'  + props.name}>
+            <a href = {'./projects/'  + props.link}>
                 <div className='project-container' style={boxShadow(props.index)}>
                     <Image className='thumbnail' src={props.thumbnail} alt={'none'}/>
                     <div className='project-text'>

@@ -3,24 +3,31 @@
     flex-direction: row;
     width: 100vw;
     justify-content: center;
-    padding-top: 12.5vh;
+    padding-top: 50vh;
     animation: 1.5s fadeInAnimation;
+    padding-bottom: 12.5vh;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
 
 .contents {
     width: 70%;
     margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
+    margin-left: 8vw;
 }
 
 .overview {
     margin-top: 5rem;
-    width: 8vw;
+    width: 10vw;
     list-style: none;
-    padding-right: 10vw;
     gap: 1rem;
-    position: sticky;
+    position: fixed;
+    left: 8vw;
 }
 
 .overview-item {
@@ -35,6 +42,7 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
 
 .regular-content {
     border-left: 15px solid transparent;
@@ -58,6 +66,11 @@
     object-fit: cover;
     width: 45vw;
     height: 40vh;
+}
+
+.project-link:hover {
+    color: rgb(116, 116, 148);
+    text-decoration: underline;
 }
 
 @media (max-width: 1000px) {

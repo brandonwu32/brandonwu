@@ -13,17 +13,17 @@ export default function Home() {
         <div className='body'>
           <p className='bio'>I'm a student at the University of California, {<strong>Berkeley</strong>} studying Computer Science.</p>
           <p className='bio'>I enjoy coding up useful full-stack applications and learning about the various applications of {<strong>Linear Programming</strong>} and Algorithms to optimize {<strong>Machine Learning</strong>}.</p>
-          <p className='bio'>I recently completed a SDE Internship at {<strong>Amazon Web Services</strong>}, where I
+          <p className='bio'>I recently completed an internship at {<strong>Amazon Web Services</strong>}, where I
             built an application that stored and provided dynamic configurations for 54 different actions
             used by the AWS Marketplace engineering team.
           </p>
           <p className='bio'>
-            Previously, I was a software engineering intern at {<a href='https://www.jointrellishealth.com/' target="_blank" rel="noopener noreferrer">Trellis Health (Tech Stars '23)</a>} and {<a href='https://www.blckunicrn.com/' target="_blank" rel="noopener noreferrer">BLCK UNICRN</a>}, an undergraduate researcher
-            in <a href='https://eecs.berkeley.edu/research/' target="_blank" rel="noopener noreferrer">Berkeley's EECS Department</a>, and a project manager at {<a href = 'https://codebase.studentorg.berkeley.edu/'>Codebase@Berkeley</a>}.
-          </p>
-          <p className='bio'>
             When I'm not coding you can find me playing sports like badminton and table tennis, or
             cooking.
+          </p>
+          <p className='bio'>
+            This summer I will be interning at {<strong>Gusto</strong>} as a software engineering intern at their San Francisco
+            headquarters. Afterwards, I will return in New York to start full time with my previous team at AWS.
           </p>
           <p className='bio'>
             Thank you for visiting my website!
