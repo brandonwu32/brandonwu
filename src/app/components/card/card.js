@@ -1,8 +1,8 @@
 
-import './project.css';
+import './card.css';
 import Image from "next/image";
 
-export default function Project(props) {
+export default function Card(props) {
     function boxShadow(index) {
         if (index % 4 === 0) {
             return {boxShadow: '5px 5px 5px white'}
@@ -16,7 +16,7 @@ export default function Project(props) {
     }
     return (
         <div>
-            <a href = {'./projects/'  + props.link}>
+            <a href = {'./' + props.link}>
                 <div className='project-container' style={boxShadow(props.index)}>
                     <Image className='thumbnail' src={props.thumbnail} alt={'none'}/>
                     <div className='project-text'>

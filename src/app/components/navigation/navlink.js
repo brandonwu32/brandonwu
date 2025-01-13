@@ -16,6 +16,10 @@ export default function NavLinks() {
         {
             name: 'Projects',
             href:'/projects'
+        },
+        {
+            name: 'Courses',
+            href:'/courses'
         }
     ]
 
