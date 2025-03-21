@@ -9,8 +9,17 @@ import EECS127 from '@/app/static/eecs127.jpeg';
 import CS188 from '@/app/static/cs188.png';
 import CS168 from '@/app/static/cs168.png';
 import GEOG188 from '@/app/static/geog188.jpeg';
+import PlayAI from '@/app/static/playai.png';
 
 export const projects = [
+    {
+        thumbnail: PlayAI,
+        name: 'Play.AI',
+        link: 'projects/playai',
+        description: 'NGrams Graph with BFS',
+        skills: 'Data Structures | Algorithms',
+        index: 1,
+    },
     {
         thumbnail: FBGEMM,
         name: 'Facebook-GEMM',
@@ -81,17 +90,17 @@ export const courses = [
     {
         thumbnail: CS188,
         name: 'CS 188',
-        link: 'tbd',
+        link: 'courses/cs188',
         description: 'Introduction to Artificial Intelligence',
-        skills: 'TBD',
+        skills: 'Search, MDP, RL, BNs, ML',
         index: 4,
     },
     {
         thumbnail: CS168,
         name: 'CS 168',
-        link: 'tbd',
+        link: 'courses/cs168',
         description: 'Introduction to Internet Architecture',
-        skills: 'TBD',
+        skills: 'Routing',
         index: 5,
     },
     {
@@ -99,7 +108,7 @@ export const courses = [
         name: 'GEOG C188',
         link: 'tbd',
         description: 'Geographic Information Systems',
-        skills: 'TBD',
+        skills: 'ArcGIS',
         index: 6,
     }
 ]
