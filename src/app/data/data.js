@@ -15,7 +15,7 @@ export const projects = [
     {
         thumbnail: PlayAI,
         name: 'Play.AI',
-        link: 'projects/playai',
+        link: 'tbd',
         description: 'NGrams Graph with BFS',
         skills: 'Data Structures | Algorithms',
         index: 1,
