@@ -12,16 +12,14 @@ export default function Home() {
         <h1 className='greeting'>Hello, I'm Brandon.</h1>
         <div className='body'>
           <p className='bio'>I'm a student at the University of California, {<strong>Berkeley</strong>} studying Computer Science.</p>
-          <p className='bio'>I enjoy coding up useful full-stack applications and learning about the various applications of Algorithms to implement {<strong>Artificial Intelligence</strong>}.</p>
-          <p className='bio'>I recently completed an internship at {<strong>Amazon Web Services</strong>}, where I
-            built an application that stored and provided dynamic configurations for AWS Marketplace API endpoints to consume at runtime.
+          <p className='bio'>I recently completed an internship at {<strong>Amazon Web Services</strong>}, and conducted RAG research in Berkeley's EECS Department.
           </p>
           <p className='bio'>
-            If I'm not coding, I'm often playing badminton with the Cal Badminton club, pickleball, table tennis, or hanging out with my friends in Codebase.
+            You might find me playing badminton with the Cal Badminton club, pickleball, table tennis, or hanging out with my friends in Codebase.
           </p>
           <p className='bio'>
-            This summer I will be interning at {<strong>Gusto</strong>} as a software engineering intern at their San Francisco
-            headquarters. Afterwards, I will return in New York to start full time with my previous team at AWS.
+            This summer I will be interning at {<strong>Gusto</strong>} as a software engineering intern in their San Francisco
+            headquarters.
           </p>
           <p className='bio'>
             Thank you for visiting my website!

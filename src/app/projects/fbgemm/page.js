@@ -1,4 +1,4 @@
-import './page.css';
+import '../page.css';
 import Enhancements from './enhancements.png';
 import ThreadLevel from './threadlevel.png';
 import Compiler from './compiler.png'

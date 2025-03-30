@@ -1,4 +1,4 @@
-import './page.css';
+import '../page.css';
 import DataSynth from './DataSynth.png';
 import Profiler from './Profiler.png';
 import Drift from './Drift.png'

@@ -10,15 +10,27 @@ import CS188 from '@/app/static/cs188.png';
 import CS168 from '@/app/static/cs168.png';
 import GEOG188 from '@/app/static/geog188.jpeg';
 import PlayAI from '@/app/static/playai.png';
+import Seacology from '@/app/static/seacology.jpeg';
+import Insight from '@/app/static/insight.jpg';
+import Gusto from '@/app/static/Gusto.svg'
+import AWS from '@/app/static/aws.jpeg'
 
 export const projects = [
     {
-        thumbnail: PlayAI,
-        name: 'Play.AI',
+        thumbnail: AWS,
+        name: 'Amazon Web Services',
         link: 'tbd',
-        description: 'NGrams Graph with BFS',
-        skills: 'Data Structures | Algorithms',
+        description: 'Software Development Engineering Intern Project',
+        skills: 'AWS CDK | AWS AppConfig | Java | Typescript',
         index: 1,
+    },
+    {
+        thumbnail: Gusto,
+        name: 'Gusto',
+        link: 'tbd',
+        description: 'Software Engineering Intern Project',
+        skills: 'TBD',
+        index: 2,
     },
     {
         thumbnail: FBGEMM,
@@ -26,7 +38,7 @@ export const projects = [
         link: 'projects/fbgemm',
         description: 'Low Precision Auto-vectorization',
         skills: 'C++ | OpenMP | Parallel Computing',
-        index: 2,
+        index: 10,
     },
     {
         thumbnail: DoordashMLOps,
@@ -39,7 +51,7 @@ export const projects = [
     {
         thumbnail: DPR,
         name: 'UC Berkeley EECS',
-        link: 'tbd',
+        link: 'projects/conditional',
         description: 'Dense Passage Retriever Benchmarking',
         skills: 'Haystack DPR | Python | RAGs',
         index: 4,
@@ -47,7 +59,7 @@ export const projects = [
     {
         thumbnail: Benford,
         name: 'Covid-19 Benford Analysis',
-        link: 'tbd',
+        link: 'projects/benford',
         description: 'My name is Brandon Wu',
         skills: 'R | Data Analysis',
         index: 5,
@@ -59,6 +71,30 @@ export const projects = [
         description: 'NGrams Graph with BFS',
         skills: 'Data Structures | Algorithms',
         index: 6,
+    },
+    {
+        thumbnail: PlayAI,
+        name: 'Play.AI',
+        link: 'projects/playai',
+        description: 'NGrams Graph with BFS',
+        skills: 'Full Stack | APIs | GenAI Speech',
+        index: 9,
+    },
+    {
+        thumbnail: Insight,
+        name: 'Insight Housing',
+        link: 'projects/insight',
+        description: 'Full Stack Development',
+        skills: 'React | Express | Postgres',
+        index: 7,
+    },
+    {
+        thumbnail: Seacology,
+        name: 'Seacology',
+        link: 'projects/seacology',
+        description: 'Full Stack Development',
+        skills: 'Next | Vercel',
+        index: 8,
     }
 ]
 
