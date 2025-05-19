@@ -14,7 +14,7 @@ export default function Page() {
             <div className='contents'>
                 <div className='scroll-content'>
                     <h1 className='title'>CS 188: Introduction to Artificial Intelligence</h1>
-                    <h3 className='description'>Grade Received: TBD</h3>
+                    <h3 className='description'>Grade Received: A</h3>
                     <h3 className='description'>Search | MDP | RL | BNs | ML</h3>
                     <i>Link: <a className='project-link' href='https://inst.eecs.berkeley.edu/~cs188/sp25/'>Course Website</a> </i>
                 </div>
