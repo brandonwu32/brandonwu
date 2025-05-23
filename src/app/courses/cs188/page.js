@@ -1,7 +1,8 @@
 import styles from '../page.css';
 import Image from "next/image";
-import Proj1 from "./proj1.png"
-import Proj3 from "./proj3.png"
+import Proj1 from "./proj1.png";
+import Proj3 from "./proj3.png";
+import Proj5 from"./proj5.png"
 
 export default function Page() {
     return (
@@ -72,6 +73,22 @@ export default function Page() {
                     <p>Implemented value iteration with Bellman equations, Policy Iteration, and various Q Learning based evaluation functions.</p>
                     <p>Evaluation functions used for pacman to capture food given multiple ghosts / objectives.</p>
                     <p>Produced an observable process of pacman learning a state space and improving on its policies with each iteration.</p>
+                </div>
+
+                <div className='regular-content'>
+                    <h3>Project 5: Machine Learning</h3>
+                </div>
+                <div className='regular-content'>
+                    <div className='demonstration'>
+                        <Image className='image' alt='Project Visualization' src={Proj5}></Image>
+                    </div>
+                </div>
+                <div className='regular-content'>
+                    <p>Implemented a Perceptron classifier from scratch to handle binary classification tasks, showcasing foundational understanding of supervised learning.</p>
+                    <p>Built a fully-connected neural network in PyTorch to classify MNIST digits with high accuracy, including techniques like mini-batch gradient descent and ReLU activations.</p>
+                    <p>Developed a recurrent neural network (RNN) for character-level language identification, experimenting with hidden state representations and long-sequence dependencies.</p>
+                    <p>Explored advanced architectures like convolutional neural networks (CNNs) and attention mechanisms to enhance performance in classification tasks.</p>
+                    <p>Created an attention block for better text prioritization and utilized the transformer architecture to build a mini Chat-GPT forward function.</p>
                 </div>
 
                 <div className='scroll-content'>

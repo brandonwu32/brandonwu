@@ -14,7 +14,7 @@ export default function Page() {
             <div className='contents'>
                 <div className='scroll-content'>
                     <h1 className='title'>CS 168: Introduction to Internet Architecture</h1>
-                    <h3 className='description'>Grade Received: TBD</h3>
+                    <h3 className='description'>Grade Received: A</h3>
                     <h3 className='description'>Routing | Transport | Applications | End to End | Datacenters</h3>
                     <i>Link: <a className='project-link' href='https://sp25.cs168.io/'>Course Website</a> </i>
                 </div>
