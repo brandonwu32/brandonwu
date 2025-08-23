@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Brandon from '@/app/static/Brandon.jpg'
+import Brandon from '@/app/static/Brandon2.jpg'
 import React from 'react';
 
 export default function Home() {
@@ -11,15 +11,17 @@ export default function Home() {
       <div className='home-right'>
         <h1 className='greeting'>Hello, I'm Brandon.</h1>
         <div className='body'>
-          <p className='bio'>I'm a student at the University of California, {<strong>Berkeley</strong>} studying Computer Science.</p>
-          <p className='bio'>I recently completed an internship at {<strong>Amazon Web Services</strong>}, and conducted RAG research in Berkeley's EECS Department.
+          <p className='bio'>
+            I will be graduating from the {<strong>University of California, Berkeley</strong>} with a degree in Computer Science.
           </p>
           <p className='bio'>
-            You might find me playing badminton with the Cal Badminton club, pickleball, table tennis, or hanging out with my friends in Codebase.
+            I`ve completed internships at {<strong>Amazon Web Services</strong>} and {<strong>Gusto </strong>}
+            as a Software Engineering Intern, and I also conducted Retrieval-Augmented Generation research
+            in Berkeley's EECS Department.
           </p>
           <p className='bio'>
-            This summer I will be interning at {<strong>Gusto</strong>} as a software engineering intern in their San Francisco
-            headquarters.
+            You might find me playing badminton with the Cal Badminton club, pickleball, table tennis,
+            or hanging out with my friends in Codebase.
           </p>
           <p className='bio'>
             Thank you for visiting my website!
