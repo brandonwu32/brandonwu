@@ -19,7 +19,7 @@ export const projects = [
     {
         thumbnail: AWS,
         name: 'Amazon Web Services',
-        link: 'tbd',
+        link: 'projects/aws',
         description: 'Software Development Engineering Intern Project',
         skills: 'AWS CDK | AWS AppConfig | Java | Typescript',
         index: 1,
@@ -27,9 +27,9 @@ export const projects = [
     {
         thumbnail: Gusto,
         name: 'Gusto',
-        link: 'tbd',
+        link: 'projects/gusto',
         description: 'Software Engineering Intern Project',
-        skills: 'TBD',
+        skills: 'Ruby on Rails | Typescript | GraphQL | Sidekiq',
         index: 2,
     },
     {
