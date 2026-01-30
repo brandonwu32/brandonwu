@@ -53,8 +53,8 @@ p a {
 }
 
 :root {
-  --background: #7b7b7b;
-  --foreground: #171717;
+  --background: radial-gradient(#fff, #bfe6f776);
+  --foreground: #fff;
 }
 
 .photo {
@@ -187,10 +187,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: light;
-  }
 }
