@@ -72,7 +72,7 @@ html {
 }
 
 .scroll-content {
-    border-left: 15px solid;
+    border-left: 15px solid rgba(0, 0, 0, 0.661);
     margin-top: 2.5rem;
     padding-inline-start: 2rem;
     display: flex;
@@ -106,7 +106,6 @@ html {
 }
 
 .project-link:hover {
-    color: rgb(116, 116, 148);
     text-decoration: underline;
 }
 

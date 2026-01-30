@@ -4,8 +4,9 @@
     flex-direction: row;
     width: 100vw;
     height: 12.5vh;
-    border-bottom: solid 0.05rem rgb(199, 199, 199);
-    background-color: rgba(0, 0, 0, 0.479);
+    background-color: #f3fafbac;
+    backdrop-filter: blur(2.5px); 
+    -webkit-backdrop-filter: blur(5px);
     z-index: 3;
 }
 

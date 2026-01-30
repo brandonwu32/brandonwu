@@ -12,31 +12,39 @@ h1 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 h2 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 h3 {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 500;
-  font-size: 1.3rem;
-  color: white;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
 }
 
 p {
   font-family: 'Assistant', sans-serif;
-  color: rgb(215, 215, 215);
+  color: rgb(0, 0, 0);
   line-height: 1.5rem;
 }
 
 a {
   text-decoration: none;
+}
+
+i {
+  color: black;
+}
+
+li {
+  color: black;
 }
 
 p a {
@@ -45,7 +53,7 @@ p a {
 }
 
 :root {
-  --background: #000000;
+  --background: #7b7b7b;
   --foreground: #171717;
 }
 
@@ -55,16 +63,23 @@ p a {
   object-fit: cover;
 }
 
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 12vh;
+}
+
 .home-container {
   display: flex;
   flex-direction: row;
-  width: 100vw;
   justify-content: center;
   gap: 6vw;
-  padding-top: 22.5vh;
+  justify-self: center;
   animation: 1.5s fadeInAnimation;
 }
-
 
 .home-left {
   width: 350px;
@@ -109,11 +124,9 @@ p a {
 }
 
 .fab {
-  background-color: white;
   width: 25px;
   height: 25px;
   object-fit: cover;
-  filter: invert(100);
 }
 
 @media (max-width: 600px) {
@@ -146,8 +159,8 @@ p a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: radial-gradient(#fff, #bfe6f776);
+    --foreground: #fff;
   }
 }
 
@@ -178,6 +191,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

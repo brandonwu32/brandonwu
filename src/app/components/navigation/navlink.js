@@ -35,7 +35,7 @@ export default function NavLinks() {
                 backgroundRepeat: 'no-repeat',
                 transition: 'background-size 0.2s ease-in-out',
                 textDecoration: 'none',
-                backgroundImage: 'linear-gradient(white, white)',
+                backgroundImage: 'linear-gradient(black, black)',
             }
         }
     }

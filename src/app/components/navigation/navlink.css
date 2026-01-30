@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     transition: background-size 0.2s ease-in-out;
     text-decoration: none;
-    background-image: linear-gradient(white, white);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
 }
 .nav-button:hover,
 .nav-button:focus,

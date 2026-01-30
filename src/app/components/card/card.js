@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function Card(props) {
     function boxShadow(index) {
         if (index % 4 === 0) {
-            return {boxShadow: '5px 5px 5px white'}
+            return {boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.1)'}
         } else if (index % 3 === 0) {
-            return {boxShadow: '5px 5px 5px white'}
+            return {boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.1)'}
         } else if (index % 2 === 0) {
-            return {boxShadow: '5px 5px 5px white'}
+            return {boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.1)'}
         } else if (index % 1 === 0) {
-            return {boxShadow: '5px 5px 5px white'}
+            return {boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.1)'}
         }
     }
     return (
