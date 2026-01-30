@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100vw;
-    height: 100%;
+    min-height: 100vh;
     animation: 1.5s fadeInAnimation;
     padding-top: 12.5vh;
 }

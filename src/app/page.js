@@ -17,7 +17,9 @@ export default function Home() {
             </p>
             <p className='bio'>
               I'm currently working at {<strong>Gusto</strong>} as a Software Engineer in New York, helping small businesses
-              set up their tax information and pay their employees on time and in compliance with agencies.
+              set up their tax information and pay their employees on time, in compliance with agencies. Previously, I interned
+              at {<strong>Amazon Web Services</strong>} as a Software Development Engineer Intern on the AWS Marketplace team and Cloud
+              Architected Network team. 
             </p>
             <p className='bio'>
               You might find me playing badminton, pickleball, table tennis, cooking,
