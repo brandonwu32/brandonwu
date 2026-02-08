@@ -14,8 +14,17 @@ import Seacology from '@/app/static/seacology.jpeg';
 import Insight from '@/app/static/insight.jpg';
 import Gusto from '@/app/static/Gusto.svg'
 import AWS from '@/app/static/aws.jpeg'
+import FinanceDashboard from '@/app/static/financeDashboard.png'
 
 export const projects = [
+    {
+        thumbnail: FinanceDashboard,
+        name: 'Finance Dashboard',
+        link: 'projects/financedashboard',
+        description: 'Personal Finance & Expense Tracker',
+        skills: 'Next.js | TypeScript | Google Sheets API | OpenAI',
+        index: 0,
+    },
     {
         thumbnail: AWS,
         name: 'Amazon Web Services',
