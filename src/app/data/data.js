@@ -15,6 +15,8 @@ import Insight from '@/app/static/insight.jpg';
 import Gusto from '@/app/static/Gusto.svg'
 import AWS from '@/app/static/aws.jpeg'
 import FinanceDashboard from '@/app/static/financeDashboard.png'
+import CS7646 from '@/app/static/cs7646.svg'
+import CS7641 from '@/app/static/cs7641.svg'
 
 export const projects = [
     {
@@ -85,7 +87,7 @@ export const projects = [
         thumbnail: PlayAI,
         name: 'Play.AI',
         link: 'projects/playai',
-        description: 'NGrams Graph with BFS',
+        description: 'Gen AI Voice File Reading',
         skills: 'Full Stack | APIs | GenAI Speech',
         index: 9,
     },
@@ -155,5 +157,21 @@ export const courses = [
         description: 'Geographic Information Systems',
         skills: 'ArcGIS',
         index: 6,
+    },
+    {
+        thumbnail: CS7646,
+        name: 'CS 7646 (Georgia Tech OMSCS)',
+        link: 'tbd',
+        description: 'Machine Learning for Trading',
+        skills: 'In progress',
+        index: 7,
+    },
+    {
+        thumbnail: CS7641,
+        name: 'CS 7641 (Georgia Tech OMSCS)',
+        link: 'tbd',
+        description: 'Machine Learning',
+        skills: 'In progress',
+        index: 8,
     }
 ]

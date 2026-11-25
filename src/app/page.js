@@ -16,10 +16,13 @@ export default function Home() {
               I studied Computer Science at the {<strong>University of California, Berkeley</strong>} from August 2022 to May 2025.
             </p>
             <p className='bio'>
-              I'm currently working at {<strong>Gusto</strong>} as a Software Engineer in New York, helping small businesses
+              I'm currently working at {<strong>Gusto</strong>} as a Software Engineer in San Francisco, helping small businesses
               set up their tax information and pay their employees on time, in compliance with agencies. Previously, I interned
-              at {<strong>Amazon Web Services</strong>} as a Software Development Engineer Intern on the AWS Marketplace team and Cloud
-              Architected Network team. 
+              at {<strong>Amazon Web Services</strong>} as a Software Development Engineer Intern on the AWS Marketplace team.
+            </p>
+            <p className='bio'>
+              In my free time, I'm taking a couple of machine learning courses through
+              the {<strong>Georgia Tech</strong>} online Computer Science master's program (OMSCS).
             </p>
             <p className='bio'>
               You might find me playing badminton, pickleball, table tennis, cooking,
